@@ -212,3 +212,156 @@ Enter a number:
 153 is an Armstrong number*/
 
 
+
+/* 9.import java.util.Scanner;
+public class Loop{
+public static void main(String args[])
+{
+int n ,i,count=0;
+Scanner s=new Scanner(System.in);
+System.out.print("Enter the value of n:");
+n=s.nextInt();
+for(i=1;i<=n;i++)
+{
+if(n % i==0){
+count++;
+}
+}
+if(count==2)
+{
+System.out.println( n +  "is a prime");
+}
+else{
+System.out.println(n +  "is not a prime");
+}
+}
+}
+
+Output:
+Enter the value of n:13
+13 is a prime
+
+Enter the value of n:15
+15 is not a prime
+
+Enter the value of n:23
+23 is a prime
+
+Enter the value of n:1
+1 is not a prime */
+
+
+/* 10.import java.util.Scanner;
+public class Loop{
+public static void main(String args[]){
+int n,i,reversed=0;
+Scanner s=new Scanner(System.in);
+System.out.println("Enter the value of n:");
+n=s.nextInt();
+i=n;
+while(n>0)
+{
+int digit=n%10;
+reversed=(reversed*10)+digit;
+n/=10;
+}
+if(i==reversed)
+{
+System.out.println(i + " is a palindrome ");
+}
+else{
+System.out.println(i +  " is not a palindrome ");
+}
+}
+} 
+Output:
+Enter the value of n:
+151
+151 is a palindrome */
+
+/* 11.import java.util.Scanner;
+public class Loop{
+public static void main(String args[])
+{
+int n;
+Scanner s=new Scanner(System.in);
+System.out.println("Enter the value of n:");
+n = s.nextInt();
+switch(n%2){
+case 0:
+System.out.println( n + " is an even number ");
+break;
+case 1:
+System.out.println( n + " is an odd number ");
+break;
+default:
+System.out.println("Invalid input");
+}
+s.close();
+}
+}
+ Output:
+Enter the value of n:
+120
+120 is an even number
+
+Enter the value of n:
+155
+155 is an odd number */
+
+
+/* 12.import java.util.Scanner;
+public class Loop{
+public static void main(String args[])
+{
+char gender;
+Scanner s=new Scanner(System.in);
+System.out.print("Enter the gender(M/F):");
+char genderChar=s.next().charAt(0);
+switch(genderChar)
+{
+case 'M':
+case 'm':
+System.out.println("Male");
+break;
+case 'F':
+case 'f':
+System.out.println("Female");
+break;
+default:
+System.out.println("Transgender");
+}
+s.close();
+}
+}
+  
+Output:
+Enter the gender(M/F):m
+Male
+
+Enter the gender(M/F):F
+Female */
+ 
+/* 13.class Loop{
+public static void main(String args[])
+{
+int a=10;
+int b=20;
+int c=30;
+if((a>b)&&(a>c))
+{
+System.out.println("a is largest");
+}
+else if((b>c)&&(b>a)){
+System.out.println("b is largest");
+}
+else{
+System.out.println("c is largest");
+}
+}
+}
+
+Output:
+c is largest */
+
+
