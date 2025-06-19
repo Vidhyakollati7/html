@@ -1,3 +1,71 @@
+/*
+1. creating method,class,object.
+
+
+class Basics
+{
+	public void sign()
+	{
+	   System.out.println("K.Vidhya");
+	}
+	public static void main(String[] args)
+	{
+	    Basics b=new Basics();
+                    b.sign();
+	}
+}
+
+Output:
+
+K.Vidhya
+
+*/
+
+/* 2. Print your name.
+
+
+public class Basics
+ {
+    public static void main(String[] args)
+          {
+              System.out.println("K.Vidhya");
+           }
+ }
+
+Output:
+
+K.Vidhya
+
+*/
+
+
+/* 3.single  line comment, Multi-line comment,documentation comment.
+
+
+
+class Basics
+{
+	/**void sign()
+	{
+	   System.out.println("K.Vidhya");
+	}*/
+	public static void main(String[] args)
+	{
+	   /* Basics b=new Basics();
+                    b.sign();*/
+	 //System.out.println("Pickachu");
+                    System.out.println("ECE");
+	}
+}
+
+Output:
+
+ECE
+
+*/
+
+
+
 //4.Define variables for data type int,boolean,char,float,double..
 /*
 
@@ -61,6 +129,8 @@ Local variable : 20
 Global Variable: 10
 
 */
+
+
 
 //  6.write a function to print your name and call the function from main method..
 
